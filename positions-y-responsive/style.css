@@ -1,0 +1,190 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: black;
+  width: 50%;
+  height: 90vh;
+  position: relative;
+}
+
+.rojo{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  color: white;
+  /* position: sticky; */
+  /* top: 0; */
+/* } */
+/* .verde{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0 ;
+  
+} */
+/* .azul{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 50px; */
+  /* bottom: 100px;
+  right: 100px; */
+/* } */
+/* .cyan{
+  width: 150px;
+  height: 150px;
+  background-color: cyan;
+  color: black; */
+  /* position: absolute;
+  top: 100px;
+  left: 500px; */
+  /* position: fixed; */
+/* } */
+
+/* .fixed{
+  position: fixed;
+  margin-bottom: 300px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  top: 500px;
+  right: 200px;
+} */
+/* 
+.sticky{
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: cyan;
+  border: 2px solid black;
+  z-index: 1;
+} */ 
+
+/* .main{
+  width: 100%;
+  background-color: cyan;
+  display: flex;
+}
+
+.main section{
+  width: 50%;
+  height: 300px;
+}
+
+.section-1{
+  background-color: red;
+}
+
+.section-2{
+  background-color: black;
+  color: white;
+}
+
+.section-3{
+  background-color: violet;
+  width: 100%;
+  height: 200px;
+}
+
+
+@media(max-width: 900px){
+  body{
+    background-color: blue;
+  }
+}
+
+@media(max-width: 600px){
+  body{
+    background-color: green;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .main section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width: 400px){
+  body{
+    background-color: black;
+  }
+  .section-3{
+    display: none;
+  }
+} */
+
+
+/* ejercicio del gatito */
+
+
+.back{
+  /* background-image: url('./assets/images/sunny-day.jpg'); */
+  background-color: aqua;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gato{
+  background-image: url('./assets/images/kitten-large.png');
+  background-repeat: no-repeat; 
+  background-size: contain;
+  width: 800px;
+  height: 400px;
+}
+
+@media(max-width: 900px){
+  .back{
+    /* background-image: url('./assets/images/dawn.png'); */
+    background-color: blue;
+    width: 130%;
+    height: 128vh;
+  }
+  .gato{
+    background-image: url('./assets/images/kitten-medium.png');
+  }
+}
+
+@media(max-width: 600px){
+  .back{
+    /* background-image: url('./assets/images/night.jpg'); */
+    background-color: blueviolet;
+    width: 200%;
+    height: 193vh;
+  }
+  .gato{
+    background-image: url('./assets/images/kitten-small.png');
+    flex-grow: 1;
+  }
+}
+
+
+
+
+
+
