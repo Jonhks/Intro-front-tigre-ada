@@ -1,0 +1,23 @@
+/* #tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.tarjeta{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: .5px solid gray;
+  border-radius: 10px;
+  margin: 5px; */
+  /* max-height: 30vh; */
+  height: 40vh;
+}
+
+.mi-nav{
+  background-color: black;
+}
+
+.mi-footer{
+  background-color: black;
+}
